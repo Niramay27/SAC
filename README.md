@@ -1,13 +1,25 @@
-# SAC, IISER BHOPAL 
-## <li> ABOUT</li>
-This is the official repository of IISER Bhopal's SAC website.
-The website is live at <a href="https://students.iiserb.ac.in">https://students.iiserb.ac.in</a> as of now.
-# 
+# IISER Bhopal - Student Activity Council (SAC) Website
 
-## <li><b>DEVELOPERS:</b></li>
-<ul><li>Tanishq Sharma: <i><a href="https://github.com/TanishqSharma2022">@tanishqsharma2022</a></i></li>
-<li>Shailesh Kachhi: <i><a href="https://github.com/Shailesh22290">@shailesh22290</a></li>
-</ul>
+Welcome to the official repository of the IISER Bhopal's Student Activity Council (SAC) website. This repository houses the code and resources for the SAC website, which is live at [students.iiserb.ac.in](https://students.iiserb.ac.in).
 
+## 📖 About
 
+The SAC website is the central platform for all student-related activities and information at IISER Bhopal. It provides easy access to event details, student organizations, resources, and announcements, helping to enhance student engagement and participation.
 
+## 🌐 Live Website
+
+You can visit the live SAC website here: [https://students.iiserb.ac.in](https://students.iiserb.ac.in).
+
+## 👥 Developers
+
+The development of the SAC website was carried out by the following contributors:
+
+- **Tanishq Sharma**  
+  [GitHub: @TanishqSharma2022](https://github.com/TanishqSharma2022)
+
+- **Shailesh Kachhi**  
+  [GitHub: @Shailesh22290](https://github.com/Shailesh22290)
+
+---
+
+Feel free to contribute or reach out to the developers for any queries or suggestions.
