@@ -227,7 +227,7 @@ $(document).ready(function () {
 let senate = {
     "president": {
             name: "Siva Reddy",
-            image: "images/senate/senate_24_25/siva.jpg",
+            image: "../../images/senate/senate_24_25/siva.jpg",
             position: "Acting-President and Vice-President",
             content: "-",
             insta: "#",
@@ -237,7 +237,7 @@ let senate = {
     },
     "cncsecretary": {
             name: "Shailesh Kachhi",
-            image: "images/senate/senate_24_25/shailesh.jpg",
+            image: "../../images/senate/senate_24_25/shailesh2.jpg",
             position: "CNC Secretary",
             content: "Hi, I'm Shailesh, a third-year DSE major and the Secretary of the Computing and Networking Council at IISER Bhopal. Passionate about creating solutions to everyday challenges and working toward societal betterment, I find peace in helping others and enjoy swimming as a hobby.",
             insta: "https://www.instagram.com/shailesh_576/",
@@ -247,7 +247,7 @@ let senate = {
     },
     "sdcsecretary": {
             name: "Siddharth Raman",
-            image: "images/avatar.png",
+            image: "../../images/senate/senate_24_25/raman.png",
             position: "SDC Secretary",
             content: "",
             insta: "",
@@ -257,7 +257,7 @@ let senate = {
     },
     "culturalsecretary": {
             name: "Murchana Bhuyan",
-            image: "images/avatar.png",
+            image: "../../images/senate/senate_24_25/murchana.png",
             position: "Cultural Council Secretary",
             content: "",
             insta: "https://www.instagram.com/_murchana_cr7",
