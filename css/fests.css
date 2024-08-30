@@ -101,7 +101,7 @@ body{
     border-radius: 20px;
     background: conic-gradient(from 90deg, #9e06f6,#450269,#5e0283);
     color: white; 
-    font-family: 'Poppins';
+    font-family: 'Inter';
     font-weight: 600;
     cursor: pointer;
     border: none;
@@ -117,7 +117,7 @@ body{
 .fest_header{
     text-align: left;
 
-    font-family: 'Poppins';
+    font-family: 'Inter';
     font-style: italic;
     color: white;
 }
@@ -125,7 +125,7 @@ body{
 .contain_header{
     text-align: left;
     position: relative; 
-    font-family: 'Poppins';
+    font-family: 'Inter';
     letter-spacing: 1px;
     COLOR: WHITE;
     font-weight: 900;
@@ -135,12 +135,12 @@ body{
     -webkit-text-fill-color: transparent;
 }   
 .fest_navbar_header{
-    font-family: Poppins;
+    font-family: "Inter";
     margin-left: 10px;
 }
 #ii{
     font-family: 'rock salt';
-    font-size: 3rem;
+    /* font-size: 3rem; */
     font-style: italic;
     letter-spacing:5px;
     color:white;
@@ -301,7 +301,7 @@ body{
 
 
 .fest_content h1{
-    font-family: 'POPPINS';
+    font-family: 'Inter';
     text-transform: uppercase;
     font-weight: 800;
     font-size: 3.5rem;
