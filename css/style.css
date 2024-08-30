@@ -749,6 +749,7 @@ li a:hover {
 } */
 
 .members {
+  align-items: center;
   box-sizing: border-box;
   width: 100%;
   height: auto;
@@ -757,7 +758,7 @@ li a:hover {
   /* flex-direction: column; */
   flex-wrap: wrap;
   margin: 0 auto;
-  justify-content: space-between;
+  justify-content: center;
   position: relative;
   /* top: 16%; */
   padding-block: 50px;
