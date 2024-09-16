@@ -257,9 +257,9 @@ let senate = {
     },
     "culturalsecretary": {
             name: "Murchana Bhuyan",
-            image: "../../images/senate/senate_24_25/murchana.png",
+            image: "../../images/senate/senate_24_25/murchana1.png",
             position: "Cultural Council Secretary",
-            content: "",
+            content: "Here's your Cultural Council Secretary, Murchana Bhuyan. As a former NCC RD Cadet from 2019, I’m all about bringing that same energy to our cultural scene. My goal? To ignite enthusiasm for IICM and transform IISERB into a beacon of creativity and spirit!  Where culture meets passion!",
             insta: "https://www.instagram.com/_murchana_cr7",
             linkedin: "https://www.linkedin.com/in/murchana-bhuyan-6588b925b/",
             mail: "mailto:murchana22@iiserb.ac.in",
