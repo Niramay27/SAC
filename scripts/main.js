@@ -578,7 +578,7 @@ function council_toggle(n) {
             club_head_image.src = senate.cncsecretary.image;
             
             // website handle
-            weblink.setAttribute("href", "https://sites.google.com/iiserb.ac.in/cnc/cnc");
+            weblink.setAttribute("href", "https://students.iiserb.ac.in/cnc");
 
             break;
 
