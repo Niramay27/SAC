@@ -606,7 +606,7 @@ function council_toggle(n) {
             // boxes[0].querySelector("#member_name").innerHTML = "Chinmayee Goswami `20 <br> Animesh Patra `20";
             boxes[2].style.display = "flex";
 
-            boxes[2].querySelector("img").src = "./images/clubs/debate.png";
+            boxes[2].querySelector("img").src = "./images/clubs/debsoc .PNG";
             boxes[2].querySelector("#club_name").innerHTML = "Debate Club";
             document.querySelector("#sqr3").setAttribute("href", "https://www.instagram.com/debsoc.iiserb");
 
