@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IntraSports Tournament</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- FontAwesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .fancy-text {
+      font-weight: bold;
+      -webkit-text-stroke: 0.4px black;
+      color: white;
+      text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.7);
+    }
+    .letter {
+      opacity: 0;
+      display: inline-block;
+      animation: fadeIn 0.5s forwards;
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="sangarshlogo.png" alt="Logo" width="40" height="40" class="me-2">
+        <span class="fw-bold">Sangharsh</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="schedule/sports.html">Sports</a></li>
+          <li class="nav-item"><a class="nav-link" href="results.html">Results</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <!-- Registration link now triggers the modal -->
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#registrationModal">
+              Registration
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="vh-100 d-flex align-items-center" style="background-image: url('background.jpg'); background-size: cover; background-position: center;">
+    <div class="container text-center text-white">
+      <h1 class="display-4 fw-bold fancy-text">WELCOME TO SANGHARSH'25</h1>
+      <p class="lead fw-bold">Compete, Connect, Celebrate</p>
+      <!-- Register Now button triggers the modal -->
+      <a href="#" class="btn btn-primary btn-lg fw-bold" data-bs-toggle="modal" data-bs-target="#registrationModal">
+        Register Now
+      </a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="tournament.jpg" alt="About Tournament" class="img-fluid rounded" />
+        </div>
+        <div class="col-md-6">
+          <h2>About the Tournament</h2>
+          <p>
+            The Sangharsh'25 (IntraSports Tournament) is an annual event bringing together sports enthusiasts across various disciplines for friendly competition,
+            skill challenges, and team building. Experience thrilling matches, outstanding performances, and community spirit.
+          </p>
+          <ul>
+            <li>Multiple sports categories</li>
+            <li>Professional refereeing</li>
+            <li>Exciting prizes</li>
+            <li>Networking opportunities</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Description Container -->
+  <div class="container text-center">
+    <p>This year, we are proud to feature <strong>17 diverse sports</strong> that cater to both team players and individual competitors. Our lineup is designed to challenge and inspire, ensuring there’s something for everyone. Our commitment extends beyond the tournament. We strive to promote healthy living, nurture local talent, and strengthen community bonds. Whether you’re competing on the field or cheering from the stands, Sangharsh'25 is an opportunity to be part of a legacy that celebrates sportsmanship and unity.
+    Whether you are competing or cheering from the sidelines, Sangharsh'25 promises an experience filled with passion, excitement, and the relentless pursuit of excellence. Join us as we celebrate sportsmanship and unity through every match, game, and performance.</p>
+  </div>
+  
+  <!-- Schedule Section -->
+  <section id="schedule" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Tournament Schedule</h2>
+      <p class="text-center mb-4">Schedule will be updated soon</p>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead class="table-dark">
+            <tr>
+              <th>Time</th>
+              <th>Match</th>
+              <th>Venue</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>-</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Calendar Section -->
+  <!--<section id="calendar" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Event Calendar</h2>
+      <div class="calendar-container">
+        <table class="table table-bordered text-center">
+          <thead class="table-dark">
+            <tr>
+              <th>Sun</th>
+              <th>Mon</th>
+              <th>Tue</th>
+              <th>Wed</th>
+              <th>Thu</th>
+              <th>Fri</th>
+              <th>Sat</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>
+              <td>10</td>
+              <td>11</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td>14</td>
+              <td>15</td>
+              <td>16</td>
+              <td>17</td>
+              <td>18</td>
+              <td>19</td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>21</td>
+              <td>22</td>
+              <td>23</td>
+              <td>24</td>
+              <td>25</td>
+              <td>26</td>
+            </tr>
+            <tr>
+              <td>27</td>
+              <td>28</td>
+              <td>29</td>
+              <td>30</td>
+              <td>31</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>-->
+
+  <!-- Slider Section -->
+  <div class="slider">
+    <!-- Radio buttons for each slide -->
+    <input type="radio" name="radio-btn" id="radio1" checked>
+    <input type="radio" name="radio-btn" id="radio2">
+    <input type="radio" name="radio-btn" id="radio3">
+    <input type="radio" name="radio-btn" id="radio4">
+    <input type="radio" name="radio-btn" id="radio5">
+    
+    <!-- Slides container -->
+    <div class="slides">
+      <div class="slide">
+        <img src="IMG_7389.JPEG" alt="Slide 1">
+      </div>
+      <div class="slide">
+        <img src="IMG_7390.JPEG" alt="Slide 2">
+      </div>
+      <div class="slide">
+        <img src="IMG_7391.JPEG" alt="Slide 3">
+      </div>
+      <div class="slide">
+        <img src="IMG_7392.JPEG" alt="Slide 4">
+      </div>
+      <div class="slide">
+        <img src="IMG_7397.JPEG" alt="Slide 5">
+      </div>
+      
+    </div>
+    
+    <!-- Arrow Navigation -->
+    <div class="arrow left-arrow"><i class="fas fa-chevron-left"></i></div>
+    <div class="arrow right-arrow"><i class="fas fa-chevron-right"></i></div>
+  </div>
+
+  <!-- Registration Modal -->
+  <div class="modal fade" id="registrationModal" tabindex="-1" aria-labelledby="registrationModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="registrationModalLabel">Notice</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Registration will be open till 27th March, 2025. Some sports will have spots registration also.
+        </div>
+        <div class="modal-footer">
+          <!-- The OK button redirects to registration.html -->
+          <a href="index (1).html" class="btn btn-primary">OK</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="py-4 bg-dark text-white">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left Logo -->
+        <div class="col-md-3 text-center text-md-start mb-2 mb-md-0">
+          <img src="sportslogo.png" alt="Left Logo" class="img-fluid" style="max-height: 100px;">
+        </div>
+        <!-- Center Text -->
+        <div class="col-md-6 text-center mb-2 mb-md-0">
+          <p class="footer-medium mb-0">
+            Developed and Designed by 
+            <a href="https://www.instagram.com/_.mayank._21._?igsh=YTVzYWQ1dnh6OGJl" class="text-white text-decoration-underline">Mayank Srivastava</a> 
+            and 
+            <a href="https://www.linkedin.com/in/piyushg4ngwar/" class="text-white text-decoration-underline">Piyush Gangwar</a>
+          </p>
+          <p class="footer-small mb-0">
+            &copy; 2025 IntraSports Tournament IISERB. All Rights Reserved.
+          </p>
+        </div>
+        <!-- Right Logo -->
+        <div class="col-md-3 text-center text-md-end">
+          <img src="sangarshlogo.png" alt="Right Logo" class="img-fluid" style="max-height: 100px;">
+        </div>
+      </div>
+    </div>
+  </footer>  
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>

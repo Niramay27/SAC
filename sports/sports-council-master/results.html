@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Results - IntraSports Tournament</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="sangarshlogo.png" alt="Logo" width="40" height="40" class="me-2"> <!-- Adjust size as needed -->
+            <span class="fw-bold">Sangharsh</span>
+        </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="schedule/sports.html">Sports</a></li>
+          <li class="nav-item"><a class="nav-link active" href="results.html">Results</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <!-- Registration link now triggers the modal -->
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#registrationModal">
+              Registration
+            </a>
+          </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Results Section -->
+  <section id="results" class="py-5" style="margin-top: 70px;">
+    <div class="container">
+      <h1 class="mb-4 text-center">We will update the results once the tournament will end. For every day results or schedule of each sports please visit <a href="schedule/sports.html">sports section</a>.</h1>
+    </div>
+  </section>
+<!-- Registration Modal -->
+<div class="modal fade" id="registrationModal" tabindex="-1" aria-labelledby="registrationModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="registrationModalLabel">Notice</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Registration will be open till 27th March, 2025. Some sports will have spots registration also.
+      </div>
+      <div class="modal-footer">
+        <!-- The OK button redirects to registration.html -->
+        <a href="index (1).html" class="btn btn-primary">OK</a>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Footer -->
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>

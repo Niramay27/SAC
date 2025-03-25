@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - IntraSports Tournament</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Additional Modern UI CSS -->
+  <style>
+    /* Global body style */
+    body {
+      background: #f7f7f7;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #444;
+    }
+    /* Navbar customization */
+    .navbar-brand span {
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    /* Contact header styling */
+    #contact h1 {
+      font-size: 2.75rem;
+      font-weight: 700;
+      color: #333;
+    }
+    #contact p {
+      font-size: 1.1rem;
+      color: #666;
+    }
+    /* Card Modernization */
+    .card {
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      background: #fff;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+    .card-title {
+      font-weight: 700;
+      color: #222;
+      margin-bottom: 1rem;
+    }
+    .card-text, .card-text a {
+      font-size: 0.95rem;
+      color: #555;
+    }
+    .card-text a {
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .card-text a:hover {
+      color: #007bff;
+      text-decoration: underline;
+    }
+    /* List styling within cards */
+    .list-unstyled li {
+      margin-bottom: 0.5rem;
+      font-size: 0.95rem;
+    }
+    .list-unstyled li a {
+      color: #007bff;
+    }
+    .list-unstyled li a:hover {
+      color: #0056b3;
+    }
+    /* Footer styling */
+    footer {
+      background: #343a40;
+      color: #ccc;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+    }
+    footer p {
+      margin-bottom: 0.5rem;
+    }
+    footer a {
+      color: #ccc;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    footer a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+    /* Responsive adjustments */
+    @media (max-width: 576px) {
+      #contact h1 {
+        font-size: 2rem;
+      }
+      #contact p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="sangarshlogo.png" alt="Logo" width="40" height="40" class="me-2">
+        <span class="fw-bold">Sangharsh</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="schedule/sports.html">Sports</a></li>
+          <li class="nav-item"><a class="nav-link" href="results.html">Results</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+         <!-- Registration link now triggers the modal -->
+         <li class="nav-item">
+          <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#registrationModal">
+            Registration
+          </a>
+        </li>
+      </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5" style="margin-top: 70px;">
+    <div class="container">
+      <h1 class="mb-4 text-center">Contact Us</h1>
+      <p class="text-center mb-5">
+        For any queries or assistance regarding the tournament, please get in touch with the appropriate contacts below.
+      </p>
+
+      <div class="row">
+        <!-- Sports Secretary -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h4 class="card-title">Sports Secretary</h4>
+              <p class="card-text">
+                
+                <strong>Name:</strong> Swarnim Raj<br>
+                <strong>Email:</strong> <a href="mailto:swarnim22@iiserb.ac.in">swarnim22@iiserb.ac.in</a>
+            
+            </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Technical Team -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h4 class="card-title">Technical Team</h4>
+              <p class="card-text">For any technical queries or issues, please contact any member of the technical team.</p>
+              <ol class="list-unstyled ps-3">
+                <li>
+                  <strong>Name:</strong> Mayank Srivastava<br>
+                  <strong>Email:</strong> <a href="mailto:mayanks23@iiserb.ac.in">mayanks23@iiserb.ac.in</a>
+                </li>
+                <li class="mt-2">
+                  <strong>Name:</strong> Piyush Gangwar<br>
+                  <strong>Email:</strong> <a href="mailto:piyush23@iiserb.ac.in">piyush23@iiserb.ac.in</a>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sports Coordinators -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h4 class="card-title">Sports Coordinators</h4>
+              <p class="card-text">For any queries regarding a particular sport, please contact the respective coordinator.</p>
+              <ul class="list-unstyled">
+                <li><strong>Carrom:</strong>
+                  Gaurav Kumar - <a href="mailto:gauravkmr18@iiserb.ac.in">gauravkmr18@iiserb.ac.in</a>,
+                  Sanyog Sharma - <a href="mailto:sanyog21@iiserb.ac.in">sanyog21@iiserb.ac.in</a>
+                </li>
+                <li class="mt-2"><strong>Basketball:</strong>
+                  Naini Diwan - <a href="mailto:naini23@iiserb.ac.in">naini23@iiserb.ac.in</a>,
+                  Himanshu Tiwari - <a href="mailto:himanshut23@iiserb.ac.in">himanshut23@iiserb.ac.in</a>
+                </li>
+                <li class="mt-2"><strong>Volleyball:</strong>
+                  Bhumika Patidar - <a href="mailto:bhumikap22@iiserb.ac.in">bhumikap22@iiserb.ac.in</a>,
+                  Onteru Anji Babu - <a href="mailto:onteru22@iiserb.ac.in">onteru22@iiserb.ac.in</a>
+                </li>
+                <li class="mt-2"><strong>Lawn Tennis:</strong>
+                  Aditi Ramani - <a href="mailto:aditiramani23@iiserb.ac.in">aditiramani23@iiserb.ac.in</a>,
+                  Daksh Dhavle - <a href="mailto:daksh23@iiserb.ac.in">daksh23@iiserb.ac.in</a>
+                </li>
+                <li class="mt-2"><strong>Cricket:</strong>
+                  Lokesh - <a href="mailto:lokesh23@iiserb.ac.in">lokesh23@iiserb.ac.in</a>,
+                  Vandan - <a href="mailto:bvandan23@iiserb.ac.in">bvandan23@iiserb.ac.in</a>
+                </li>
+                <li class="mt-2"><strong>Badminton:</strong>
+                  Subham Saswat Pradhan - <a href="mailto:subhams22@iiserb.ac.in">subhams22@iiserb.ac.in</a>,
+                  Ayush Raj - <a href="mailto:ayushraj23@iiserb.ac.in">ayushraj23@iiserb.ac.in</a>
+                </li>
+                <li class="mt-2"><strong>Table Tennis:</strong>
+                  Somjit Chattopadhyay - <a href="mailto:somjit23@iiserb.ac.in">somjit23@iiserb.ac.in</a>,
+                  Poorvai Chandrasen - <a href="mailto:poorvai23@iiserb.ac.in">poorvai23@iiserb.ac.in</a>
+                </li>
+                <li class="mt-2"><strong>Athletics:</strong>
+                  Hritik Yadav - <a href="mailto:hritik23@iiserb.ac.in">hritik23@iiserb.ac.in</a>,
+                  Ilesha Ojha - <a href="mailto:ilesha23@iiserb.ac.in">ilesha23@iiserb.ac.in</a>
+                </li>
+                <li class="mt-2"><strong>Chess:</strong>
+                  Ranjith Anand - <a href="mailto:ranjith23@iiserb.ac.in">ranjith23@iiserb.ac.in</a>,
+                  Rushikesh Oke - <a href="mailto:rushikesh23@iiserb.ac.in">rushikesh23@iiserb.ac.in</a>
+                </li>
+                <li class="mt-2"><strong>Football:</strong>
+                  Soumyadip Ray - <a href="mailto:soumyadip23@iiserb.ac.in">soumyadip23@iiserb.ac.in</a>,
+                  Divya Sharma - <a href="mailto:divya23@iiserb.ac.in">divya23@iiserb.ac.in</a>
+                </li>
+                <li class="mt-2"><strong>Kabaddi:</strong>
+                  Gudala Rushi Kesava Reddy - <a href="mailto:gudala22@iiserb.ac.in">gudala22@iiserb.ac.in</a>,
+                  Nallapureddy Chaaturya - <a href="mailto:nallapureddy22@iiserb.ac.in">nallapureddy22@iiserb.ac.in</a>
+                </li>
+                <li class="mt-2"><strong>Kho-Kho:</strong>
+                  Saurabh Shirke - <a href="mailto:shirke22@iiserb.ac.in">shirke22@iiserb.ac.in</a>,
+                  Avani Jain - <a href="mailto:avanij22@iiserb.ac.in">avanij22@iiserb.ac.in</a>
+                </li>
+                <li class="mt-2"><strong>Powerlifting:</strong>
+                  Shivraj Deshmukh - <a href="mailto:shivraj22@iiserb.ac.in">shivraj22@iiserb.ac.in</a>,
+                  Sanskruti Chame - <a href="mailto:chame22@iiserb.ac.in">chame22@iiserb.ac.in</a>
+                </li>
+                <li class="mt-2"><strong>Tug of War:</strong>
+                  Shivraj Deshmukh - <a href="mailto:shivraj22@iiserb.ac.in">shivraj22@iiserb.ac.in</a>,
+                  Sanskruti Chame - <a href="mailto:chame22@iiserb.ac.in">chame22@iiserb.ac.in</a>
+                </li>
+                <li class="mt-2"><strong>Squash:</strong>
+                  Porus Naresh Vaid - <a href="mailto:porus21@iiserb.ac.in">porus21@iiserb.ac.in</a>
+                </li>
+                <li class="mt-2"><strong>Yoga:</strong>
+                  Devyani Sanjay Patil - <a href="mailto:devyani21@iiserb.ac.in">devyani21@iiserb.ac.in</a>
+                </li>
+                <li class="mt-2"><strong>Martial Arts:</strong>
+                  Shrutisagar Jena - <a href="mailto:shrutisagar22@iiserb.ac.in">shrutisagar22@iiserb.ac.in</a>,
+                  Sanika Ashish Sarkate - <a href="mailto:sanika23@iiserb.ac.in">sanika23@iiserb.ac.in</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> <!-- End row -->
+    </div> <!-- End container -->
+  </section>
+
+<!-- Registration Modal -->
+<div class="modal fade" id="registrationModal" tabindex="-1" aria-labelledby="registrationModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="registrationModalLabel">Notice</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Registration will be open till 27th March, 2025. Some sports will have spots registration also.
+      </div>
+      <div class="modal-footer">
+        <!-- The OK button redirects to registration.html -->
+        <a href="index (1).html" class="btn btn-primary">OK</a>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Footer -->
+  <footer class="py-4 bg-dark text-white">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left Logo -->
+        <div class="col-md-3 text-center text-md-start mb-2 mb-md-0">
+          <img src="sportslogo.png" alt="Left Logo" class="img-fluid" style="max-height: 100px;">
+        </div>
+        <!-- Center Text -->
+        <div class="col-md-6 text-center mb-2 mb-md-0">
+          <p class="footer-medium mb-0">
+            <a class="text-shadow" >Developed and Designed by </a>
+            <a href="https://www.instagram.com/_.mayank._21._?igsh=YTVzYWQ1dnh6OGJl" class="text-white text-decoration-underline">Mayank Srivastava</a> 
+            <a class="text-shadow" >and </a>
+            <a href="https://www.linkedin.com/in/piyushg4ngwar/" class="text-white text-decoration-underline">Piyush Gangwar</a>
+          </p>
+          <p class="footer-small mb-0">
+            <a class="text-shadow" >&copy; 2025 IntraSports Tournament IISERB. All Rights Reserved.</a>
+          </p>
+        </div>
+        <!-- Right Logo -->
+        <div class="col-md-3 text-center text-md-end">
+          <img src="sangarshlogo.png" alt="Right Logo" class="img-fluid" style="max-height: 100px;">
+        </div>
+      </div>
+    </div>
+  </footer>  
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
