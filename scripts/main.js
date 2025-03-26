@@ -306,14 +306,24 @@ let senate = {
             whatsapp: "https://wa.me/+919175541352"
     },
     "rcsecretary": {
-            name: "Yet to be elected",
-            image: "images/avatar.png",
-            position: "RC Secretary",
-            content: "",
+            name: "Anirudha Patil",
+            image: "images/senate/senate_24_25/anirudha.jpg",
+            position: "RC Secretary, Hostel Affairs",
+            content: "Third Year BS(Data Science and Engineering), Actively Participating in Student Activities, Managing College Fests",
             insta: "",
-            linkedin: "",
-            mail: "mailto:@iiserb.ac.in",
-            whatsapp: "https://wa.me/+91"
+            linkedin: "https://www.linkedin.com/in/anirudha-patil-135447255",
+            mail: "mailto:rc@iiserb.ac.in",
+            whatsapp: "https://wa.me/+917385155474"
+    },
+    "rc2secretary": {
+            name: "Taashif Bashar",
+            image: "images/senate/senate_24_25/taashif.jpg",
+            position: "RC Secretary , Academic Affairs ",
+            content: "I’m Taashif Bashar, serving as the RC Secretary for Academic Affairs. I’m passionate about reading, basketball, and creating meaningful change. My primary focus is to advocate for student concerns, ensuring their voices are effectively heard and addressed by the authorities.",
+            insta: "https://www.instagram.com/your_hc_verma/profilecard/?igsh=cmh6cmRzb2k1bWps",
+            linkedin: "https://www.linkedin.com/in/taashif-bashar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            mail: "mailto:taashif22@iiserb.ac.in",
+            whatsapp: "https://wa.me/+917488634526"
     },
     "asrug": {
             name: "Manas Nandan",
